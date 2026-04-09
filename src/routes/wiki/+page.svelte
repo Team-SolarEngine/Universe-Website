@@ -17,10 +17,10 @@ discord_rpc | "fatal error C1083: Cannot open include file: '../lib/discord-rpc/
 <br>
 <b>Game Issues: </b><br>
 <b> Windows: </b><br>
-Certain lua based HUD elements are not colored correctly/at all - This will be fixed in a minor patch, if you downloaded 0.6.0's windows build, update to 0.6.1 when it releases.
-
+Certain lua based HUD elements are not colored correctly/at all - This will be fixed in a minor patch, if you downloaded 0.6.0's windows build, update to 0.6.1 when it releases.<br>
+<br>
 <b> Universal: </b><br>
-Result Screen does not properly exit song in some cases - Unknown Cause, cannot guarentee it will be able to be fixed.
+Result Screen does not properly exit song in some cases - Fixed in 0.6.1
 </span>
 </main>
 
