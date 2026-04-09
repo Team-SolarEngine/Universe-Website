@@ -6,6 +6,7 @@
     <div class="buttons">
         <a href="/" class:active={page === 'home'}>Home</a>
         <a href="/wiki" class:active={page === 'wiki'}>Wiki</a>
+        <a href="/news" class:active={page === 'news'}>News</a>
     </div>
 
     <div class="promo">
