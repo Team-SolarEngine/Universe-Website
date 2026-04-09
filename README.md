@@ -1,32 +1,42 @@
-<!--
-> wheres the "</div>" on the first div?
-= well, we dont need one since we really need the text on the center.
--->
+# sv
 
-<div align="center">
-<img src="images/Universe Engine.png" width="300">
+Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-<br>
+## Creating a project
 
-<p>
-    Go ahead and make pull requests to make the website a bit better!
-    <br>
-    We always love a little help from people!
-    <br>
-    :3
-</p>
+If you're seeing this, you've probably already done this step. Congrats!
 
-<h1>
-    <a href="https://universe-engine.netlify.app/">
-        UNIVERSE ENGINE WEBSITE
-    </a>
-</h1>
+```sh
+# create a new project
+npx sv create my-app
+```
 
-<h6>
-    <a href="https://discord.gg/RaHmP5fgyA/">Universe Engine Discord</a>
-    <br>
-    <a href="https://universe-engine.netlify.app/"> Universe Engine Website</a> <br>
-    Website hosted by <a href="https://www.netlify.com/">netlify.com</a>
-    <br>
-    Website designed by <a href="https://daveberry.netlify.app">Daveberry</a> <i>(mainly did everything)</i> and <a href="https://linktr.ee/videobot">Videobot</a>
-</h6>
+To recreate this project with the same configuration:
+
+```sh
+# recreate this project
+pnpm dlx sv@0.15.0 create --template minimal --types jsdoc --add prettier eslint --install pnpm D:\Other Stuff\Github Stuff\Solar Website
+```
+
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```sh
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```sh
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
