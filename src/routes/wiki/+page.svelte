@@ -21,10 +21,10 @@
                     <br>
                     <b>Game Issues: </b><br>
                     <b> Windows: </b><br>
-                    Certain lua based HUD elements are not colored correctly/at all - This will be fixed in a minor patch, if you downloaded 0.6.0's windows build, update to 0.6.1 when it releases.<br>
+                    <s>Certain lua based HUD elements are not colored correctly/at all</s> - Update to 0.6.1<br>
                     <br>
                     <b> Universal: </b><br>
-                    Result Screen does not properly exit song in some cases - Fixed in 0.6.1
+                    <s>Result Screen does not properly exit song in some cases</s> - Update to 0.6.1
                 </section>
             <div>
         </div>
