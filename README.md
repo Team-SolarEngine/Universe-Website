@@ -7,6 +7,12 @@
 The site is still under construction but it will be the host for the wiki as well as Solar Engine updates! Suggest things with the [Issues page](https://github.com/Team-SolarEngine/Solar-Website/issues)
  or alternatively you can fork the website and make a pull request!
 
+# TODOS:
+
+- [ ] Make a wiki page on Engine Release
+- [ ] Make a versions list with links that direct download the version
+- [ ] Actually add the news page
+
 ### Building the website from source
 
  Clone the repo then in the folder containing the website run the following:
