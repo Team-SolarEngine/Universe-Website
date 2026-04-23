@@ -1,7 +1,6 @@
 <script lang="js">
     import { onMount } from 'svelte';
     import Topbar from '../webpack/topbar.svelte';
-    import Solar from '$lib/assets/arrowDOWN0.png'
     const page = 'home';
 
     let engineVersionBuild = $state('null');
@@ -39,7 +38,7 @@
                     <h1>Welcome to Solar Engine</h1>
                 </div>
                 <div class="right">
-                    <img src={Solar} alt="Arrow Down" width="100" height="100"/>
+                    <img src="/assets/arrowDOWN0.png" alt="Arrow Down" width="100" height="100"/>
                     <section>
                         <p>Solar Engine is a FNF Engine forked from the base game.</p>
                         <p>Used to be a Psych Engine fork, but now transitioned to a base game fork.</p>
@@ -84,7 +83,7 @@
                 
                 <div class="dev">
                     <a href="https://video-bot.netlify.app/">
-                        <img src="https://video-bot.netlify.app/assets/images/VideoBot.png" alt="VideoBot" width="150" class="circlePFP">
+                        <img src="https://video-bot.netlify.app/_app/immutable/assets/VideoBot.BjIP8NLq.png" alt="VideoBot" width="150" class="circlePFP">
                         <h2 class="videobot">VideoBot</h2>
                         <p>Lead developer. Creator of the engine.</p>
                     </a>

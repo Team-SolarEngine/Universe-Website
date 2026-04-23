@@ -1,6 +1,6 @@
 @font-face{
     font-family: funkin;
-    src: url("./assets/funkin.ttf");
+    src: url("/assets/funkin.ttf");
 }
 
 :root{
@@ -8,7 +8,7 @@
 }
 
 body {
-    background: var(--background) url('./assets/checkers.png');
+    background: var(--background) url('/assets/checkers.png');
     animation: backdropillusion 4s linear infinite;
     color: white;
     font-family: funkin;
