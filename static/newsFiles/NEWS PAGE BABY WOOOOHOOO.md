@@ -1,7 +1,6 @@
-**Date**: 23rd April 2026 <br/>
-**Creator**: Daveberry Cricket Blueson
+## 4/23/2026
+## CharGoldenYT <img src="https://github.com/CharGoldenYT/CharGoldenYT/blob/main/cha.png?raw=true" width="48">
 
----
+# New News Section!
 
-# HOLY FUCKING SHIT THIS WORKS
-AJUEIOFUO ABEOFG BAEFO PBUA
+Coded by Daveberry, this site now officially hosts Solar Engine news!
