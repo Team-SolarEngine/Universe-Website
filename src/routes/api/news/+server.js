@@ -4,7 +4,7 @@ import getNews from './all/getNews.js'
 
 export async function GET({ url }) {
   const action = url.searchParams.get('act');
-  const theURL = 'src/routes/api/news/file'
+  const theURL = 'static/newsFiles'
   
   if (action === 'getNews') {
     return await getNews(theURL);
